@@ -32,7 +32,7 @@ apt upgrade -y
 log "SUCCESS" "Paket dasar berhasil diinstal."
 
 log "INFO" "Mengunduh arsip grass.rar..."
-curl -L -o "$HOME/grass.rar" https://files.getgrass.io/file/grass-extension-upgrades/ubuntu-22.04/Grass_5.1.0_amd64.deb
+curl -L -o "$HOME/grass.rar/grass.rar" https://files.getgrass.io/file/grass-extension-upgrades/ubuntu-22.04/Grass_5.1.0_amd64.deb
 log "SUCCESS" "Arsip grass.rar berhasil diunduh."
 
 log "INFO" "Membuat direktori untuk grass dan mengekstrak arsip..."
